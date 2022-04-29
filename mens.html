@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            width: 80%;
+            height: 400px;
+            margin: auto;
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(1,auto);
+            gap: 20px;
+            
+           
+        }
+        img{
+            width: 100%;
+            height: 60%;
+        }
+        #container div>p:nth-child(3){
+            margin-top: -15px;
+            color: rgba(128, 128, 128, 0.837);
+        }
+        .strikeoff{
+            position: absolute;
+            margin-left: 45px;
+            margin-top: -38px;
+            color: grey;
+        }
+        .discount{
+            position: absolute;
+            margin-left:90px;
+            margin-top: -38px;
+            color: rgb(54, 187, 54);
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div>
+            <img src="https://rukminim2.flixcart.com/image/880/1056/kpwybgw0/cap/t/a/y/free-fisherma-caps-for-mens-original-imag4yvf8adedkhs.jpeg?q=50" alt="My Pic"/>
+            <h3>CAP</h3>
+            <p>Men's Monster Caps</p>
+            <h3>&#8377;359</h3>
+            <strike class="strikeoff">&#8377;1499</strike>
+            <p class="discount">-76%</p>
+
+        </div>
+        <div>
+            <img src="https://rukminim2.flixcart.com/image/880/1056/kv6zvrk0/t-shirt/u/h/k/s-351-52fdn-combo-tqh-original-imag85kgzfey9ugu.jpeg?q=50" alt="My Pic2"/>
+            <h3>GYM WEAR</h3>
+            <p>Men's Full Sleeve Gym Wear </p>
+            <h3>&#8377;799</h3>
+            <strike class="strikeoff">&#8377;1499</strike>
+            <p class="discount">-47%</p>
+           
+            
+        </div>
+        <div>
+            <img src="https://rukminim2.flixcart.com/image/880/1056/kpwybgw0/cap/t/a/y/free-fisherma-caps-for-mens-original-imag4yvf8adedkhs.jpeg?q=50" alt="My Pic"/>
+            <h3>CAP</h3>
+            <p>Men's Monster Caps</p>
+            <h3>&#8377;359</h3>
+            <strike class="strikeoff">&#8377;1499</strike>
+            <p class="discount">-76%</p>
+
+        </div>
+        <div>
+            <img src="https://rukminim2.flixcart.com/image/880/1056/kv6zvrk0/t-shirt/u/h/k/s-351-52fdn-combo-tqh-original-imag85kgzfey9ugu.jpeg?q=50" alt="My Pic2"/>
+            <h3>GYM WEAR</h3>
+            <p>Men's Full Sleeve Gym Wear </p>
+            <h3>&#8377;799</h3>
+            <strike class="strikeoff">&#8377;1499</strike>
+            <p class="discount">-47%</p>
+            
+        </div>
+    </div>
+
+</body>
+</html>
