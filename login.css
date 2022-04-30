@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+   
+}
+body{
+    background-color: rgb(121, 145, 252);
+}
+#form{
+margin:10px auto;
+width: 27%;
+height:560px;
+padding:20px;
+background-color: white;
+border-radius: 10px;
+}
+h1{   
+    margin-top: 50px;
+    text-align: center;
+  
+}
+h1~input{
+    margin:60px auto;
+    padding:10px 5%;
+    display: block;
+    width: 70%;
+    font-size: 17px;
+    border:0px;
+    border-bottom: 2px solid grey;
+
+}
+input~p{
+    text-align: center;
+    color: grey;
+}
+input+p{
+    margin-top:40px;
+}
+input+p+p{
+    margin-top:20px;
+}
+a{
+    text-decoration: none;
+}
+#password+input{
+    font-size: 20px;
+    padding:20px 40%;
+   display: flex;
+   justify-content: center;
+   color: white;
+   background-image:linear-gradient(to right,rgb(108, 108, 235),rgb(0, 140, 255),rgb(141, 77, 245));
+  border-radius: 5px;
+}
